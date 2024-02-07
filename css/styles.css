@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1128px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+img {
+    display: block;
+}
+
+.gallery {
+    width: 1128px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-item img {
+    width: 360px;
+    height: 200px;
+}
+
+.modal img {
+    width: 1112px;
+    height: 640px;
+}
